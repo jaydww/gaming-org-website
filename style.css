@@ -1,3 +1,4 @@
+/* for index.html */
 #page-header {
     background:  lightblue;
     display:  flex;
@@ -42,6 +43,10 @@
     color:  black;
 }
 
+.active {
+    background-color:  lightcoral;
+}
+
 .main-content{
     width:  100%;
     background:  lightgrey;
@@ -55,6 +60,7 @@
     width:  30%;
     height:  auto;
     padding:  10px;
+    object-fit:  contain;
 }
 
 .main-content-p {
@@ -73,3 +79,19 @@ footer p {
     margin:  0px;
     font-size:  12px;
 }
+
+.games {
+    display:  flex;
+    flex-wrap:  nowrap;
+    justify-content: space-evenly;
+    padding:  50px 0px 50px 0px;
+}
+
+.games > img {
+    width:  25%;
+    height:  auto;
+    padding:  10px;
+    object-fit: contain;
+}
+
+/* for about.html */
