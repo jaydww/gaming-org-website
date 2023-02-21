@@ -82,16 +82,29 @@ footer p {
 
 .games {
     display:  flex;
-    flex-wrap:  nowrap;
-    justify-content: space-evenly;
-    padding:  50px 0px 50px 0px;
+    flex-wrap:  wrap;
+    justify-content:  space-evenly;
 }
 
 .games > img {
-    width:  25%;
+    width:  20%;
     height:  auto;
-    padding:  10px;
     object-fit: contain;
 }
+
+.discord {
+    display:  flex;
+    flex-direction:  column;
+    justify-content: space-evenly;
+}
+
+.discord > img {
+    width:  20%;
+    height:  auto;
+    object-fit: contain;
+    margin:  auto;
+}
+
+
 
 /* for about.html */
