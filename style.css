@@ -7,6 +7,8 @@
 
 #logo {
     margin:  20px;
+    height:  150px;
+    width:  150px;
 
 }
 
@@ -92,15 +94,15 @@ footer p {
     object-fit: contain;
 }
 
-.discord {
+#discord {
     display:  flex;
     flex-direction:  column;
     justify-content: space-evenly;
 }
 
-.discord > img {
-    width:  20%;
-    height:  auto;
+iframe {
+    width:  50%;
+    height:  400px;
     object-fit: contain;
     margin:  auto;
 }
