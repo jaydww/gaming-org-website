@@ -6,10 +6,9 @@
 }
 
 #logo {
-    margin:  20px;
-    height:  150px;
+    padding:  20px;
+    height:  auto;
     width:  150px;
-
 }
 
 #welcome-banner {
@@ -70,18 +69,6 @@
     padding:  10px;
 }
 
-footer {
-    background:  pink;
-    display:  flex;
-    flex-direction:  column;
-    align-items: center;
-}
-
-footer p {
-    margin:  0px;
-    font-size:  12px;
-}
-
 .games {
     display:  flex;
     flex-wrap:  wrap;
@@ -106,6 +93,20 @@ iframe {
     object-fit: contain;
     margin:  auto;
 }
+
+
+footer {
+    background:  pink;
+    display:  flex;
+    flex-direction:  column;
+    align-items: center;
+}
+
+footer p {
+    margin:  0px;
+    font-size:  12px;
+}
+
 
 
 
