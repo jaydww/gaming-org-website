@@ -2,12 +2,13 @@
 #page-header {
     background:  lightblue;
     display:  flex;
-    flex-wrap:  wrap;
+    flex-wrap:  nowrap;
+    align-items: center;
 }
 
 #logo {
     padding:  20px;
-    height:  auto;
+    height:  150px;
     width:  150px;
 }
 
@@ -36,7 +37,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #nav-bar a:hover {
@@ -54,7 +55,7 @@
     display:  flex;
     flex-wrap:  wrap;
     align-items: center;
-    border-style:  solid;
+    justify-content: center;
 }
 
 .main-content-img {
@@ -92,6 +93,12 @@ iframe {
     height:  400px;
     object-fit: contain;
     margin:  auto;
+}
+
+@media screen and (max-width:  400px) {
+    iframe {
+        width:  110%;
+    }
 }
 
 
