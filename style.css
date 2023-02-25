@@ -4,6 +4,9 @@
     display:  flex;
     flex-wrap:  nowrap;
     align-items: center;
+    border:  1px solid #000;
+    margin:  auto;
+    width:  100%;
 }
 
 #logo {
@@ -29,6 +32,8 @@
     width:  100%; 
     background-color:  lightskyblue;
     justify-content:  space-evenly;
+    border:  1px solid #000;
+    margin:  auto;
 }
 
 #nav-bar a {
@@ -56,6 +61,8 @@
     flex-wrap:  wrap;
     align-items: center;
     justify-content: center;
+    border:  1px solid #000;
+    margin:  auto;
 }
 
 .main-content-img {
@@ -107,6 +114,9 @@ footer {
     display:  flex;
     flex-direction:  column;
     align-items: center;
+    border:  1px solid #000;
+    margin:  auto;
+    width:  100%;
 }
 
 footer p {
