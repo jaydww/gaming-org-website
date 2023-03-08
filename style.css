@@ -38,6 +38,12 @@ body {
     margin:  auto;
 }
 
+@media screen and (max-height:  400px) {
+    #nav-bar {
+        height:  20vh;
+    }
+}
+
 #nav-bar a {
     color:  black;
     text-align: center;
@@ -60,22 +66,25 @@ body {
 /* main content boxes */
 .main-content{
     width:  100%;
-    background:  lightgrey;
+    background-color:  lightgray;
     display:  flex;
-    flex-wrap:  wrap;
     align-items: center;
-    justify-content: center;
-    padding:  20px;
-    border-bottom: 2px dotted blue;
+    border-bottom:  3px dotted blue;
 }
 
 .main-content-img {
-    width:  30vh;
+    width:  30vw;
     height:  auto;
     object-fit:  contain;
     border-radius:  50px;
-    padding:  25px;
+    padding:  10px;
     flex-grow:  0;
+}
+
+.main-content-p {
+    width:  60vw;
+    padding:  10px;
+    flex-grow:  4;
 }
 
 .main-content h1 {
@@ -83,11 +92,12 @@ body {
     flex-grow:  4;
 }
 
+.main-content-p p a {
+    text-decoration: none;
 
-.main-content-p {
-    width:  60vh;
-    flex-grow:  4;
 }
+
+/* index.html games icon bucket */
 
 .games {
     display:  flex;
@@ -98,32 +108,12 @@ body {
 }
 
 .games img {
-    width:  20%;
-    height:  auto;
+    width:  100px;
+    height:  100px;
     object-fit: contain;
     margin:  10px;
 }
-
-#discord {
-    display:  flex;
-    flex-direction:  column;
-    justify-content: space-evenly;
-}
-
-iframe {
-    width:  50%;
-    height:  400px;
-    object-fit: contain;
-    margin:  auto;
-}
-
-@media screen and (max-width:  400px) {
-    iframe {
-        width:  110%;
-    }
-}
-
-
+/* footer */
 footer {
     background:  pink;
     display:  flex;
